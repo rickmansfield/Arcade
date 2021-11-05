@@ -1,5 +1,7 @@
 import builtins
 import math
+from collections import Counter
+from typing import Counter
 print(help(dict))
 print(help({}))
     # new dictionary initialized from a mapping object's (key, value) pairs
@@ -20,6 +22,10 @@ print(help(""))
 print(help("".split))
 print(help(range))
 print(help(reversed))
+print(help(Counter))
+# |  Dict subclass for counting hashable items.  Sometimes called a bag
+#  |  or multiset.  Elements are stored as dictionary keys and their counts
+#  |  are stored as dictionary values.
 
 """
 Resources
