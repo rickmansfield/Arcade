@@ -2,9 +2,9 @@ import builtins
 import math
 import collections
 import typing
-from collections import Counter
+# from collections import Counter
 from collections import UserString
-from typing import Counter
+# from typing import Counter
 
 """
 To search a term like "sort" which is a chainable function you must first search the variable. 

@@ -9,7 +9,7 @@ iteration the loop adhears to the ORIGINAL range of (0,4)
 """
 def makeArrayConsecutive2(statues):
     count = 0
-    statues.sort()
+    # statues.sort()
     sorted_statues = sorted(statues)
     dynamicRange = range(len(statues))
     dynamicLength = len(statues)-1
