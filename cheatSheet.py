@@ -2,6 +2,15 @@ import builtins
 import math
 from collections import Counter
 from typing import Counter
+"""
+To search a term like "sort" which is a chainable function you must first search the variable. 
+Example... 
+def someFunction(arrayVariableName)
+print(help(arraryVariableName))
+print(someFunction([[6, 2, 3, 8]]))
+...the resulting print will produce a list of all the options available to arrayVariableName including "sort" with it's explaination. 
+"""
+print(dir(builtins))
 print(help(dict))
 print(help({}))
     # new dictionary initialized from a mapping object's (key, value) pairs
@@ -9,7 +18,7 @@ print(help(tuple))
     #  If no argument is given, the constructor returns an empty tuple.
     #  If iterable is specified the tuple is initialized from iterable's items.
 print(help(sorted)) 
-    # returns new sorted list
+    # returns new sorted list in ascending order. Sort is customizable and reverse flag can be applied
 print(help(list))
     # If no argument is given, the constructor creates a new empty list.
     # The argument must be an iterable if specified.
