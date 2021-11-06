@@ -15,6 +15,6 @@ from typing import Counter
 #     # print(help(sorted))
     
 # print(makeArrayConsecutive2([6, 2, 3, 8]))
-print(dir(collections))
-print("---------")
-print(help(UserString))
+# print(dir(typing))
+# print("---------")
+print(help(typing))
