@@ -2,9 +2,9 @@ import builtins
 import math
 import collections
 import typing
-# from collections import Counter
+from collections import Counter
 from collections import UserString
-# from typing import Counter
+from typing import Counter
 
 """
 To search a term like "sort" which is a chainable function you must first search the variable. 
@@ -15,6 +15,7 @@ print(someFunction([[6, 2, 3, 8]]))
 ...the resulting print will produce a list of all the options available to arrayVariableName including "sort" with it's explaination. 
 """
 print(dir(builtins))
+print(help(set)) # Build an unordered collection of unique elements.( no duplicates)
 print(help(dict))
 print(help({}))
     # new dictionary initialized from a mapping object's (key, value) pairs
