@@ -45,3 +45,42 @@ https://github.com/LambdaSchool/CS-Wiki/wiki/Javascript-Python-cheatsheet
 https://github.com/LambdaSchool/CS-Wiki/wiki/How-to-Read-Specifications-and-Code
 https://docs.python.org/3.6/library/
 """
+
+""" 
+String options 
+    isalnum(self)
+ |  isalpha(self)
+ |  isascii(self)
+ |  isdecimal(self)
+ |  isdigit(self)
+ |  isidentifier(self)
+ |  islower(self)
+ |  isnumeric(self)
+ |  isprintable(self)
+ |  isspace(self)
+ |  istitle(self)
+ |  isupper(self)
+ |  join(self, seq)
+ |  ljust(self, width, *args)
+ |  lower(self)
+ |  lstrip(self, chars=None)
+ |  partition(self, sep)
+ |  removeprefix(self, prefix, /)
+ |  removesuffix(self, suffix, /)
+ |  replace(self, old, new, maxsplit=-1)
+ |  rfind(self, sub, start=0, end=9223372036854775807)
+ |  rindex(self, sub, start=0, end=9223372036854775807)
+ |  rjust(self, width, *args)
+ |  rpartition(self, sep)
+ |  rsplit(self, sep=None, maxsplit=-1)
+ |  rstrip(self, chars=None)
+ |  split(self, sep=None, maxsplit=-1)
+ |  splitlines(self, keepends=False)
+ |  startswith(self, prefix, start=0, end=9223372036854775807)
+ |  strip(self, chars=None)
+ |  swapcase(self)  
+ |  title(self)
+ |  translate(self, *args)
+ |  upper(self)
+|  zfill(self, width)
+    """
