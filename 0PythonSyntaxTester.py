@@ -8,7 +8,7 @@ from typing import Counter
 
 # def makeArrayConsecutive2(statues):
 # print(help([].sort))
-print(help(set))
+print(help(max))
     # statues.sort()
 #     print(help(statues))
 #     # print(dir(statues.sort))

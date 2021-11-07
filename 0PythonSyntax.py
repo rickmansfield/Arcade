@@ -18,6 +18,13 @@ print(someFunction([[6, 2, 3, 8]]))
 ...the resulting print will produce a list of all the options available to arrayVariableName including "sort" with it's explaination. 
 """
 print(dir(builtins))
+print(help(max)) 
+# max(iterable, *[, default=obj, key=func]) -> value
+# max(arg1, arg2, *args, *[, key=func]) -> value
+# With a single iterable argument, return its biggest item.
+# default keyword-only argument specifies an object to return if the provided iterable is empty.
+# With two or more arguments, return the largest argument.
+
 print(help(set)) # Build an unordered collection of unique elements.( no duplicates)
 print(help(str))
 print(help(int))
