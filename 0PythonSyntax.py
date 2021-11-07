@@ -1,3 +1,6 @@
+"""
+PYTHON syntax to look up most common methods
+"""
 import builtins
 import math
 import collections
@@ -16,7 +19,8 @@ print(someFunction([[6, 2, 3, 8]]))
 """
 print(dir(builtins))
 print(help(set)) # Build an unordered collection of unique elements.( no duplicates)
-print(help(dict))
+print(help(str))
+print(help(int))
 print(help({}))
     # new dictionary initialized from a mapping object's (key, value) pairs
 print(help(tuple))
@@ -27,6 +31,7 @@ print(help(sorted))
 print(help(list))
     # If no argument is given, the constructor creates a new empty list.
     # The argument must be an iterable if specified.
+print(help(dict))
 print(help(dict.values))
     #  an object providing a view on D's values
 print(help(dict.get))
@@ -34,8 +39,11 @@ print(help(dict.get))
 print(help(""))
     # returns a huge list of possibilities including "".join
 print(help("".split))
+print(help("".join)) # removes spaces in a string
+print(help(",".join)) # adds comma between strings
 print(help(range))
 print(help(reversed))
+print(help(map)) # needs two arguments (function, iterable) example (str, array)
 print(help(Counter))
 # |  Dict subclass for counting hashable items.  Sometimes called a bag
 #  |  or multiset.  Elements are stored as dictionary keys and their counts

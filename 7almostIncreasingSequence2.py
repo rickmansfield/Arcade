@@ -19,3 +19,13 @@ for/while each i range(len(array)
         - and continue to next i 
 return False
 """
+def almostIncreasingSequence(sequence):
+    if len(set(sequence)) == 1:
+        True
+    elif len(sequence) - len(set(sequence)) > 1:
+        return False
+    
+    for i in range(len(sequence)-1):
+        if sequence[i] < sequence[i+1]:
+            continue
+        el
