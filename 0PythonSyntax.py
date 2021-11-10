@@ -45,7 +45,7 @@ print(help(dict.get))
     # Return the value for key if key is in the dictionary, else default.
 print(help(""))
     # returns a huge list of possibilities including "".join
-print(help("".split))
+print(help("".split)) # isolates each string by itself. Example ["push 1"] becomes ["push", "1"]
 print(help("".join)) # removes spaces in a string
 print(help(",".join)) # adds comma between strings
 print(help(range))
