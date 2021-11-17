@@ -4,11 +4,12 @@ import collections
 import typing
 from collections import Counter
 from collections import UserString
+from collections import deque
 from typing import Counter
 
 # def makeArrayConsecutive2(statues):
 # print(help([].sort))
-print(help(max))
+print(help(deque))
     # statues.sort()
 #     print(help(statues))
 #     # print(dir(statues.sort))
