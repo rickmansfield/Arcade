@@ -24,7 +24,8 @@ print(help(max))
 # With a single iterable argument, return its biggest item.
 # default keyword-only argument specifies an object to return if the provided iterable is empty.
 # With two or more arguments, return the largest argument.
-
+print(help([].pop))
+print(help(str.pop))
 print(help(set)) # Build an unordered collection of unique elements.( no duplicates)
 print(help(str))
 print(help(int))
