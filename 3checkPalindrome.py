@@ -8,7 +8,7 @@ print(help(next))
 - create simple conditional to compare original to reversed orders and return True/False respectively
     
 """
-
+print(help(reversed))
 def csCheckPalindrome(input_str): # Time O(n) space O(1) 
     opposite = "".join(reversed(input_str))
     print(opposite)
@@ -16,7 +16,6 @@ def csCheckPalindrome(input_str): # Time O(n) space O(1)
         return True
     else:
         return False
-
 
 print(csCheckPalindrome("Love Lambda"))
 print(csCheckPalindrome("mom"))

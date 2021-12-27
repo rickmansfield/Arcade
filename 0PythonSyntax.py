@@ -50,7 +50,7 @@ print(help("".split)) # isolates each string by itself. Example ["push 1"] becom
 print(help("".join)) # removes spaces in a string
 print(help(",".join)) # adds comma between strings
 print(help(range))
-print(help(reversed))
+print(help(reversed)) # returns reversed list of characters separated by a commma
 print(help(map)) # needs two arguments (function, iterable) example (str, array)
 print(help(Counter))
 # |  Dict subclass for counting hashable items.  Sometimes called a bag
